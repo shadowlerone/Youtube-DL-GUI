@@ -1,0 +1,32 @@
+/*
+Css file for css_stylesheets.py example
+*/
+
+
+QMainWindow {
+	background-color: #212121;
+	color: white;
+	padding: 2px;
+}
+QmainWindow * {
+	color: white;
+}
+
+QPushButton {
+	background: #3498db;
+	color: #ffffff;
+	padding: 10px 20px 10px 20px;
+	border-radius: 6px;
+}
+
+QPushButton:hover {
+	background: grey;
+}
+QLabel{
+	color: white;
+}
+
+/*Use the # and the name of the variable to access to a specific the Control*/
+#_firstnameField QLineEdit {
+	color: red;
+}
